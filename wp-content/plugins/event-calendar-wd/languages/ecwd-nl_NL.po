@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: event_calendar_wd\n"
+"POT-Creation-Date: 2015-06-25 15:45+0400\n"
+"PO-Revision-Date: 2015-06-25 15:45+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: views/admin\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+"X-Poedit-SearchPathExcluded-2: includes/ecwd-cpt-class.php\n"
+"X-Poedit-SearchPathExcluded-3: includes/register-settings.php\n"
+"X-Poedit-SearchPathExcluded-4: includes/ecwd-ical-events-class.php\n"
+"X-Poedit-SearchPathExcluded-5: includes/ecwd-google-events-class.php\n"
+"X-Poedit-SearchPathExcluded-6: includes/ecwd-facebook-events-class.php\n"
+"X-Poedit-SearchPathExcluded-7: ecwd_admin_class.php\n"
+
+#: includes/calendar-class.php:174 includes/calendar-class.php:175
+#: views/widgets.php:168
+msgid "Month"
+msgstr "Maand"
+
+#: includes/calendar-class.php:176 views/widgets.php:169
+msgid "List"
+msgstr "Lijst"
+
+#: includes/calendar-class.php:178
+msgid "Week"
+msgstr "Week"
+
+#: includes/calendar-class.php:182
+msgid "Day"
+msgstr "Dag"
+
+#: includes/calendar-class.php:185
+msgid "Map"
+msgstr "Kaart"
+
+#: includes/calendar-class.php:187
+msgid "4 Days"
+msgstr "4 Dagen"
+
+#: includes/calendar-class.php:190
+msgid "Posterboard"
+msgstr "Lijmspray"
+
+#: includes/calendar-class.php:382 includes/calendar-class.php:416
+#: includes/calendar-class.php:563 includes/calendar-class.php:1167
+#: includes/calendar-class.php:1306 includes/ecwd-functions.php:359
+#: views/ecwd-event-content.php:75 views/ecwd-event-content.php:157
+#: views/ecwd-organizer-content.php:128 views/ecwd-venue-content.php:173
+#: views/single-event.php:98 views/single-event.php:189
+#: views/single-event.php:354
+msgid "All day"
+msgstr "Gehele dag"
+
+#: includes/calendar-class.php:439 includes/calendar-class.php:515
+#: includes/calendar-class.php:1362
+msgid "No events"
+msgstr "Geen evenementen"
+
+#: includes/calendar-class.php:635
+msgid "No Events"
+msgstr "Geen Evenementen"
+
+#: includes/calendar-class.php:973
+msgid "What're we looking for ?"
+msgstr "Wat moeten we op zoek naar?"
+
+#: includes/calendar-class.php:1237
+msgid "More events"
+msgstr "Meer Evenementen"
+
+#: includes/ecwd-cpt-filter.php:67
+msgid "From"
+msgstr "Van"
+
+#: includes/ecwd-cpt-filter.php:74
+msgid "To"
+msgstr "Naar"
+
+#: includes/ecwd-functions.php:8
+msgid "Loading..."
+msgstr "Het Laden..."
+
+#: includes/ecwd-functions.php:437 includes/texts.php:50
+msgid "DAYS"
+msgstr "DAGEN"
+
+#: includes/ecwd-functions.php:438 includes/texts.php:51
+msgid "HOURS"
+msgstr "HOURS"
+
+#: includes/ecwd-functions.php:439 includes/texts.php:52
+msgid "MINUTES"
+msgstr "MINUTEN"
+
+#: includes/ecwd-functions.php:440 includes/texts.php:53
+msgid "SECONDS"
+msgstr "SECONDEN"
+
+#: includes/texts.php:2
+msgid "January"
+msgstr "Januari"
+
+#: includes/texts.php:3
+msgid "February"
+msgstr "Februari"
+
+#: includes/texts.php:4
+msgid "March"
+msgstr "Maart"
+
+#: includes/texts.php:5
+msgid "April"
+msgstr "April"
+
+#: includes/texts.php:6
+msgid "May"
+msgstr "Mei"
+
+#: includes/texts.php:7
+msgid "June"
+msgstr "Juni"
+
+#: includes/texts.php:8
+msgid "July"
+msgstr "Juli"
+
+#: includes/texts.php:9
+msgid "August"
+msgstr "Augustus"
+
+#: includes/texts.php:10
+msgid "September"
+msgstr "September"
+
+#: includes/texts.php:11
+msgid "October"
+msgstr "Oktober"
+
+#: includes/texts.php:12
+msgid "November"
+msgstr "November"
+
+#: includes/texts.php:13
+msgid "December"
+msgstr "December"
+
+#: includes/texts.php:14
+msgid "Sunday"
+msgstr "Zondag"
+
+#: includes/texts.php:15
+msgid "Monday"
+msgstr "Maandag"
+
+#: includes/texts.php:16
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: includes/texts.php:17
+msgid "Wednesday"
+msgstr "Wonsdag"
+
+#: includes/texts.php:18
+msgid "Thursday"
+msgstr "Dnderdag"
+
+#: includes/texts.php:19
+msgid "Friday"
+msgstr "Vijdag"
+
+#: includes/texts.php:20
+msgid "Saturday"
+msgstr "Zterdag"
+
+#: includes/texts.php:22
+msgid "Sun"
+msgstr "Zon"
+
+#: includes/texts.php:23
+msgid "Mon"
+msgstr "Maa"
+
+#: includes/texts.php:24
+msgid "Tue"
+msgstr "Din"
+
+#: includes/texts.php:25
+msgid "Wed"
+msgstr "Won"
+
+#: includes/texts.php:26
+msgid "Thu"
+msgstr "Dnd"
+
+#: includes/texts.php:27
+msgid "Fri"
+msgstr "Vij"
+
+#: includes/texts.php:28
+msgid "Sat"
+msgstr "Zte"
+
+#: includes/texts.php:31
+msgid "Su"
+msgstr "Z"
+
+#: includes/texts.php:32
+msgid "Mo"
+msgstr "M"
+
+#: includes/texts.php:33
+msgid "Tu"
+msgstr "D"
+
+#: includes/texts.php:34
+msgid "We"
+msgstr "W"
+
+#: includes/texts.php:35
+msgid "Th"
+msgstr "D"
+
+#: includes/texts.php:36
+msgid "Fr"
+msgstr "V"
+
+#: includes/texts.php:37
+msgid "Sa"
+msgstr "Z"
+
+#: includes/texts.php:41
+msgid "Show Filters"
+msgstr "Toon filters"
+
+#: includes/texts.php:42
+msgid "Collapse Filters"
+msgstr "Collaplse Filters"
+
+#: includes/texts.php:43
+msgid "Reset Filters"
+msgstr "Reset Filters"
+
+#: includes/texts.php:45
+msgid "Days"
+msgstr "Dagen"
+
+#: includes/texts.php:46
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/texts.php:47
+msgid "Venues"
+msgstr "Locaties"
+
+#: views/ecwd-event-content.php:66 views/ecwd-event-content.php:152
+#: views/single-event.php:89 views/single-event.php:184
+msgid "Date"
+msgstr "Datum"
+
+#: views/ecwd-event-content.php:90 views/single-event.php:114
+msgid "Url"
+msgstr "Url"
+
+#: views/ecwd-event-content.php:96 views/single-event.php:121
+msgid "Organizers"
+msgstr "Organisatoren"
+
+#: views/ecwd-organizer-content.php:105
+msgid "upcoming events"
+msgstr "Aankomende Evenementen"
+
+#: views/ecwd-venue-content.php:136
+msgid "events"
+msgstr "events"
+
+#: views/single-event.php:330
+msgid "Related events"
+msgstr "Verwante evenementen"
+
+#: includes/calendar-class.php:16
+msgid "No additional details for this event."
+msgstr "Geen extra informatie voor deze gebeurtenis."

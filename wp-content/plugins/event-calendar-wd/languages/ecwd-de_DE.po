@@ -1,0 +1,297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: event_calendar_wd\n"
+"POT-Creation-Date: 2015-06-25 15:42+0400\n"
+"PO-Revision-Date: 2015-06-25 15:43+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: views/admin\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+"X-Poedit-SearchPathExcluded-2: includes/ecwd-cpt-class.php\n"
+"X-Poedit-SearchPathExcluded-3: includes/register-settings.php\n"
+"X-Poedit-SearchPathExcluded-4: includes/ecwd-ical-events-class.php\n"
+"X-Poedit-SearchPathExcluded-5: includes/ecwd-google-events-class.php\n"
+"X-Poedit-SearchPathExcluded-6: includes/ecwd-facebook-events-class.php\n"
+"X-Poedit-SearchPathExcluded-7: ecwd_admin_class.php\n"
+"X-Poedit-SearchPathExcluded-8: includes/ecwd-event-class.php\n"
+
+#: includes/calendar-class.php:174 includes/calendar-class.php:175
+#: views/widgets.php:168
+msgid "Month"
+msgstr "Monat"
+
+#: includes/calendar-class.php:176 views/widgets.php:169
+msgid "List"
+msgstr "Liste"
+
+#: includes/calendar-class.php:178
+msgid "Week"
+msgstr "Woche"
+
+#: includes/calendar-class.php:182
+msgid "Day"
+msgstr "Tag"
+
+#: includes/calendar-class.php:185
+msgid "Map"
+msgstr "Karte"
+
+#: includes/calendar-class.php:187
+msgid "4 Days"
+msgstr "4 Tage"
+
+#: includes/calendar-class.php:190
+msgid "Posterboard"
+msgstr "Posterboard"
+
+#: includes/calendar-class.php:382 includes/calendar-class.php:416
+#: includes/calendar-class.php:563 includes/calendar-class.php:1167
+#: includes/calendar-class.php:1306 includes/ecwd-functions.php:359
+#: views/ecwd-event-content.php:75 views/ecwd-event-content.php:157
+#: views/ecwd-organizer-content.php:128 views/ecwd-venue-content.php:173
+#: views/single-event.php:98 views/single-event.php:189
+#: views/single-event.php:354
+msgid "All day"
+msgstr "Den ganzen Tag"
+
+#: includes/calendar-class.php:439 includes/calendar-class.php:515
+#: includes/calendar-class.php:1362
+msgid "No events"
+msgstr "Keine Veranstaltungen"
+
+#: includes/calendar-class.php:635
+msgid "No Events"
+msgstr "Keine Veranstaltungen"
+
+#: includes/calendar-class.php:973
+msgid "What're we looking for ?"
+msgstr "Was machen wir?"
+
+#: includes/calendar-class.php:1237
+msgid "More events"
+msgstr "Weitere Veranstaltungen"
+
+#: includes/ecwd-cpt-filter.php:67
+msgid "From"
+msgstr "Von"
+
+#: includes/ecwd-cpt-filter.php:74
+msgid "To"
+msgstr "Bis"
+
+#: includes/ecwd-functions.php:8
+msgid "Loading..."
+msgstr "Laden"
+
+#: includes/ecwd-functions.php:437 includes/texts.php:50
+msgid "DAYS"
+msgstr "TAGEN"
+
+#: includes/ecwd-functions.php:438 includes/texts.php:51
+msgid "HOURS"
+msgstr "STANDEN"
+
+#: includes/ecwd-functions.php:439 includes/texts.php:52
+msgid "MINUTES"
+msgstr "MINUTEN"
+
+#: includes/ecwd-functions.php:440 includes/texts.php:53
+msgid "SECONDS"
+msgstr "SEKUNDEN"
+
+#: includes/texts.php:2
+msgid "January"
+msgstr "Januar"
+
+#: includes/texts.php:3
+msgid "February"
+msgstr "Februar"
+
+#: includes/texts.php:4
+msgid "March"
+msgstr "März"
+
+#: includes/texts.php:5
+msgid "April"
+msgstr "April"
+
+#: includes/texts.php:6
+msgid "May"
+msgstr "May"
+
+#: includes/texts.php:7
+msgid "June"
+msgstr "Juni"
+
+#: includes/texts.php:8
+msgid "July"
+msgstr "Juli"
+
+#: includes/texts.php:9
+msgid "August"
+msgstr "August"
+
+#: includes/texts.php:10
+msgid "September"
+msgstr "September"
+
+#: includes/texts.php:11
+msgid "October"
+msgstr "Oktober"
+
+#: includes/texts.php:12
+msgid "November"
+msgstr "November"
+
+#: includes/texts.php:13
+msgid "December"
+msgstr "Dezember"
+
+#: includes/texts.php:14
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: includes/texts.php:15
+msgid "Monday"
+msgstr "Montag"
+
+#: includes/texts.php:16
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: includes/texts.php:17
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: includes/texts.php:18
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: includes/texts.php:19
+msgid "Friday"
+msgstr "Freitag"
+
+#: includes/texts.php:20
+msgid "Saturday"
+msgstr "Samstag"
+
+#: includes/texts.php:22
+msgid "Sun"
+msgstr "Son"
+
+#: includes/texts.php:23
+msgid "Mon"
+msgstr "Mon"
+
+#: includes/texts.php:24
+msgid "Tue"
+msgstr "Die"
+
+#: includes/texts.php:25
+msgid "Wed"
+msgstr "Mit"
+
+#: includes/texts.php:26
+msgid "Thu"
+msgstr "Don"
+
+#: includes/texts.php:27
+msgid "Fri"
+msgstr "Fre"
+
+#: includes/texts.php:28
+msgid "Sat"
+msgstr "Sam"
+
+#: includes/texts.php:31
+msgid "Su"
+msgstr "S"
+
+#: includes/texts.php:32
+msgid "Mo"
+msgstr "M"
+
+#: includes/texts.php:33
+msgid "Tu"
+msgstr "D"
+
+#: includes/texts.php:34
+msgid "We"
+msgstr "M"
+
+#: includes/texts.php:35
+msgid "Th"
+msgstr "D"
+
+#: includes/texts.php:36
+msgid "Fr"
+msgstr "F"
+
+#: includes/texts.php:37
+msgid "Sa"
+msgstr "S"
+
+#: includes/texts.php:41
+msgid "Show Filters"
+msgstr "Filter anzeigen"
+
+#: includes/texts.php:42
+msgid "Collapse Filters"
+msgstr "Collapse Filter"
+
+#: includes/texts.php:43
+msgid "Reset Filters"
+msgstr "Filter neu"
+
+#: includes/texts.php:45
+msgid "Days"
+msgstr "Tagen"
+
+#: includes/texts.php:46
+msgid "Categories"
+msgstr "Kategorien"
+
+#: includes/texts.php:47
+msgid "Venues"
+msgstr "Veranstaltungsorte"
+
+#: views/ecwd-event-content.php:66 views/ecwd-event-content.php:152
+#: views/single-event.php:89 views/single-event.php:184
+msgid "Date"
+msgstr "Datum"
+
+#: views/ecwd-event-content.php:90 views/single-event.php:114
+msgid "Url"
+msgstr "Url"
+
+#: views/ecwd-event-content.php:96 views/single-event.php:121
+msgid "Organizers"
+msgstr "Veranstalter"
+
+#: views/ecwd-organizer-content.php:105
+msgid "upcoming events"
+msgstr "kommende Veranstaltungen"
+
+#: views/ecwd-venue-content.php:136
+msgid "events"
+msgstr "veranstaltungen"
+
+#: views/single-event.php:330
+msgid "Related events"
+msgstr "Keine Veranstaltungen"
+
+#: includes/calendar-class.php:16
+msgid "No additional details for this event."
+msgstr "Die Veranstaltung hat gerade erst begonnen"
+
+#~ msgid "The event has just started"
+#~ msgstr "Die Veranstaltung hat gerade erst begonnen"

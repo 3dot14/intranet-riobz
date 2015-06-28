@@ -19,6 +19,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if IE]><script src="<?php echo BAVOTASAN_THEME_URL; ?>/library/js/html5.js"></script><![endif]-->
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/calendar/css/calendar.css" type="text/css" media="screen" />
 </head>
 <?php
 $bavotasan_theme_options = bavotasan_theme_options();
