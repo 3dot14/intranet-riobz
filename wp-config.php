@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'retotrei_intranet');
+define('DB_NAME', 'intranet');
 
 /** MySQL database username */
-define('DB_USER', 'retotrei_intra');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'M0nst3r');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', 'retotreinta.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
