@@ -1,0 +1,98 @@
+/*
+Theme Name: tdMacro
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	unicode-bidi: embed;
+	direction: rtl;
+}
+
+ul {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.main-navigation ul ul,
+.comment-author .avatar {
+	left: auto;
+	right: 0;
+}
+
+.main-navigation ul ul ul {
+	left: auto;
+	right: 100%;
+}
+
+.main-navigation .nav-bar .sub-menu li.menu-item-has-children > a:after,
+.main-navigation .nav-bar .children li.page_item_has_children > a:after {
+	content: "";
+}
+
+.main-navigation .nav-bar .sub-menu li.menu-item-has-children > a:before,
+.main-navigation .nav-bar .children li.page_item_has_children > a:before {
+	content: "\f104";
+	padding-right: 6px;
+}
+
+#masthead .site-branding.pull-left,
+.main-navigation li,
+.entry-footer .pull-left,
+.single .hentry .entry-header .entry-meta .pull-left,
+.author-section .gravatar {
+	float:right !important;
+}
+
+#masthead .header-controls.pull-right,
+.entry-footer .pull-right,
+.single .hentry .entry-header .entry-meta .pull-right {
+	float:left !important;
+}
+
+.blog .hentry.has-featured-img .entry-header,
+.search .hentry.has-featured-img .entry-header,
+.archive .hentry.has-featured-img .entry-header {
+	text-align: right;
+}
+
+.comment-navigation .nav-previous,
+.paging-navigation .nav-previous,
+.post-navigation .nav-previous {
+	text-align: left;
+}
+
+#comments .comment-author,
+#comments .comment-awaiting-moderation,
+#comments .comment-content,
+#comments .comment-list .reply,
+#comments .comment-metadata {
+	padding-left: 0;
+	padding-right: 71px;
+}
+
+.author-section .gravatar {
+	margin-right: 0;
+}
+
+.author-section .about .info {
+	padding-left: 0;
+	padding-right: 116px;
+}
+
+@media (min-width: 1200px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: right;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: right;
+	}
+}

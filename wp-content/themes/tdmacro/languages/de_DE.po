@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tdMacro\n"
+"POT-Creation-Date: 2014-10-25 21:09-0800\n"
+"PO-Revision-Date: 2014-10-25 21:09-0800\n"
+"Last-Translator: Pixolin <pixolin@gmx.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Diese Seite wurde nicht gefunden!"
+
+#: ../404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Anscheinend wurde an diesem Ort nichts gefunden. Vielleicht versuchen Sie es "
+"mit einem der nachfolgenden Links oder der Suche?"
+
+#: ../archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: ../archive.php:32
+#, php-format
+msgid "Day: %s"
+msgstr "Tag: %s"
+
+#: ../archive.php:35
+#, php-format
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: ../archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: ../archive.php:38
+#, php-format
+msgid "Year: %s"
+msgstr "Jahr: %s"
+
+#: ../archive.php:38
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: ../archive.php:41
+msgid "Asides"
+msgstr "Kurzmitteilungen"
+
+#: ../archive.php:44
+msgid "Galleries"
+msgstr "Galerien"
+
+#: ../archive.php:47
+msgid "Images"
+msgstr "Bilder"
+
+#: ../archive.php:50
+msgid "Videos"
+msgstr "Videos"
+
+#: ../archive.php:53
+msgid "Quotes"
+msgstr "Zitate"
+
+#: ../archive.php:56
+msgid "Links"
+msgstr "Links"
+
+#: ../archive.php:59
+msgid "Statuses"
+msgstr "Statusmitteilungen"
+
+#: ../archive.php:62
+msgid "Audios"
+msgstr "Audio-Dateien"
+
+#: ../archive.php:65
+msgid "Chats"
+msgstr "Chats"
+
+#: ../archive.php:68 ../sidebar.php:16
+msgid "Archives"
+msgstr "Archive"
+
+#: ../comments.php:35 ../comments.php:52
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: ../comments.php:36 ../comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: ../comments.php:37 ../comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: ../content-attachment.php:16
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Veröffentlicht am <span class=\"entry-date\"><time class=\"entry-date\" "
+"datetime=\"%1$s\" pubdate>%2$s</time></span> mit <a href=\"%3$s\" title="
+"\"Link zum Bild in Originalgröße\">%4$s &times; %5$s</a> in <a href=\"%6$s\" "
+"title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: ../content-attachment.php:26 ../content-page.php:24
+#: ../content-single.php:31
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../content-none.php:10
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: ../content-none.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bereit zur Veröffentlichung des ersten Beitrags? <a href=\"%1$s\">Hier "
+"geht's los.</a>."
+
+#: ../content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Entschuldigung, aber zu den Suchbegriffen wurde nichts gefunden. Bitte "
+"versuchen Sie es nochmal mit anderen Schlüsselwörtern."
+
+#: ../content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Anscheinend können wir das Gewünschte nicht finden. Vielleicht hilft eine "
+"Suche?"
+
+#: ../content-page.php:17 ../content-single.php:40 ../content.php:42
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../content-search.php:44 ../content-single.php:22 ../content.php:57
+msgid "0"
+msgstr "0"
+
+#: ../content-search.php:44 ../content-single.php:22 ../content.php:57
+msgid "1"
+msgstr "1"
+
+#: ../content-search.php:44 ../content-single.php:22 ../content.php:57
+msgid "%"
+msgstr "%"
+
+#: ../content.php:37 ../functions.php:156
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: ../footer.php:25
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: ../footer.php:25
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Stolz präsentiert von %s"
+
+#: ../footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s by %2$s"
+
+#: ../functions.php:47
+msgid "Primary Menu"
+msgstr "Primäres Menu"
+
+#: ../functions.php:48
+msgid "Social Menu"
+msgstr "Social Bookmarks-Menü"
+
+#: ../functions.php:82
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: ../functions.php:92
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: ../functions.php:109
+msgctxt "Source Sans Pro: on or off"
+msgid "on"
+msgstr "Ein"
+
+#: ../header.php:43
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../inc/customizer.php:20
+msgid "Custom Logo"
+msgstr "Eigenes Logo"
+
+#: ../inc/customizer.php:32
+msgid "Accent Color"
+msgstr "Akzent-Farbe"
+
+#: ../inc/customizer.php:45
+msgid "Header Background Color"
+msgstr "Hintergrundfarbe Kopfzeile"
+
+#: ../inc/customizer.php:58
+msgid "Menu Background Color"
+msgstr "Hintergrundfarbe Menü"
+
+#: ../inc/customizer.php:71
+msgid "Menu Text Color"
+msgstr "Textfarbe Menü"
+
+#: ../inc/customizer.php:84
+msgid "Footer Background Color"
+msgstr "Hintergrundfarbe Fußzeile"
+
+#: ../inc/customizer.php:97
+msgid "Footer Primary Text Color"
+msgstr "Primäre Textfarbe Fußzeile"
+
+#: ../inc/customizer.php:110
+msgid "Footer Secondary Text Color"
+msgstr "Sekundäre Textfarbe Fußzeile"
+
+#: ../inc/customizer.php:120
+msgid "Theme Options"
+msgstr "Theme-Optionen"
+
+#: ../inc/customizer.php:132
+msgid "Post with Featured Image"
+msgstr "Beitrag mit Beitragsbild"
+
+#: ../inc/customizer.php:135
+msgid "Show Post Content"
+msgstr "Beitragsinhalt anzeigen"
+
+#: ../inc/customizer.php:136
+msgid "Hide Post Content"
+msgstr "Beitragsinhalt verbergen"
+
+#: ../inc/customizer.php:149
+msgid "Auto Post Summary"
+msgstr "Automatische Beitrags-Zusammenfassung"
+
+#: ../inc/customizer.php:152
+msgid "On"
+msgstr "An"
+
+#: ../inc/customizer.php:153
+msgid "Off"
+msgstr "Aus"
+
+#: ../inc/extras.php:82
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: ../inc/extras.php:163
+msgid "About"
+msgstr "Über"
+
+#: ../inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Beitragsnavigation"
+
+#: ../inc/template-tags.php:26
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: ../inc/template-tags.php:30
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/template-tags.php:54
+msgid "Post navigation"
+msgstr "Beitrag-Navigation"
+
+#: ../inc/template-tags.php:56
+msgid "Previous Article"
+msgstr "Vorheriger Artikel"
+
+#: ../inc/template-tags.php:57
+msgid "Next Article"
+msgstr "Nächster Artikel"
+
+#: ../inc/template-tags.php:77
+msgid "Posted"
+msgstr "Veröffentlichung"
+
+#: ../inc/template-tags.php:80
+msgid "ago"
+msgstr "her"
+
+#: ../inc/template-tags.php:83
+#, php-format
+msgid ""
+"<span class=\"human-date\">%1$s</span> <span class=\"regular-date\">%2$s</"
+"span>"
+msgstr ""
+"<span class=\"human-date\">%1$s</span> <span class=\"regular-date\">%2$s</"
+"span>"
+
+#: ../inc/template-tags.php:150
+msgid "By "
+msgstr "von "
+
+#: ../inc/template-tags.php:153 ../inc/template-tags.php:173
+#, php-format
+msgid "View all posts by %s"
+msgstr "Zeige alle Beiträge von %s"
+
+#: ../inc/template-tags.php:170
+msgid "Posted by "
+msgstr "Veröffentlicht von"
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suche Ergebnisse für: %s"
+
+#: ../sidebar.php:23
+msgid "Meta"
+msgstr "Meta"
+
+#~ msgid "Suggested Posts (Single Post Page)"
+#~ msgstr "Vorgeschlagener Beitrag (Seite mit einzelnem Beitrag)"
+
+#~ msgid "&mdash; Select &mdash;"
+#~ msgstr "&mdash; Auswählen &mdash;"
+
+#~ msgid "More Articles"
+#~ msgstr "Weitere Artikel"
