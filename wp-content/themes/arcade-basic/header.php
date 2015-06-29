@@ -74,8 +74,19 @@ $space_class = '';
 						 */
 						if ( ! defined( 'BAVOTASAN_SEE_MORE' ) )
 							define( 'BAVOTASAN_SEE_MORE', __( 'See More', 'arcade' ) );
+						global $current_user;
+						get_currentuserinfo();
+						$usuario = esc_attr($current_user->user_login);
+						if($usuario==null){
+							
+						?> 
+							<a href="index.php/login" id="more-site" class="btn btn-default btn-lg">Log in</a>	
+						<?php
+						} 
+						else{
 						?>
-    					<a href="#" id="more-site" class="btn btn-default btn-lg"><?php echo BAVOTASAN_SEE_MORE; ?></a>
+    						<a href="#" id="more-site" class="btn btn-default btn-lg">Ver mas</a>
+    					<?php } ?>
     				</div>
 
     				<?php
