@@ -86,7 +86,7 @@ if ( 'page' == get_option('show_on_front') ) {
 				}
 				?>
 			</div><!-- #primary.c8 -->
-			<?php get_sidebar(); ?>
+			<?php //get_sidebar(); ?>
 		</div>
 	</div>
 

@@ -32,7 +32,7 @@ get_header(); ?>
         		endif;
         		?>
         	</section><!-- #primary.c8 -->
-            <?php get_sidebar(); ?>
+            <?php //get_sidebar(); ?>
         </div>
     </div>
 

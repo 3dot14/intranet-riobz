@@ -67,7 +67,7 @@ get_header(); ?>
 				?>
 
 			</section><!-- #primary.c8 -->
-			<?php get_sidebar(); ?>
+			<?php //get_sidebar(); ?>
 		</div>
 	</div>
 

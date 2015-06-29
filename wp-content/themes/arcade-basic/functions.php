@@ -461,7 +461,7 @@ function bavotasan_primary_attr() {
 	$bavotasan_theme_options = bavotasan_theme_options();
 	$class = $bavotasan_theme_options['primary'];
 	$class = ( 'left' == $bavotasan_theme_options['layout'] ) ? $class . ' pull-right' : $class;
-
+	$class = 'col-md-11';
 	echo 'class="' . $class . ' hfeed"';
 }
 

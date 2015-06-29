@@ -53,16 +53,16 @@ $space_class = '';
 			 <div class="title-card-wrapper">
                 <div class="title-card">
     				<div id="site-meta">
-    					<h1 id="site-title">
-    						<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+    					<h1 id="">
+    						<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?> <img src="<?= esc_url( home_url() );?>/wp-content/uploads/2015/06/Riobzlogo.png" width="15%" alt=""></a>
     					
     					</h1>
 
-    					<?php if ( $bavotasan_theme_options['header_icon'] ) { ?>
+    					<?php /*if ( $bavotasan_theme_options['header_icon'] ) { ?>
     					<i class="fa <?php echo $bavotasan_theme_options['header_icon']; ?>"></i>
     					<?php } else {
     						$space_class = ' class="margin-top"';
-    					} ?>
+    					} */?>
 
     					<h2 id="site-description"<?php echo $space_class; ?>>
     						<?php bloginfo( 'description' ); ?>
@@ -99,3 +99,14 @@ $space_class = '';
 		</header>
 
 		<main>
+			<br>
+			<div class="row">
+				<div class="col-md-3 col-md-offset-8">
+					<form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url() ); ?>">
+						<label>
+							<span class="sr-only"><?php _ex( 'Search for:', 'label', 'arcade' ); ?></span>
+							<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search &hellip;', 'placeholder', 'arcade' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s">
+						</label>
+					</form>
+				</div>
+			</div>
