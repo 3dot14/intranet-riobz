@@ -91,8 +91,10 @@ $space_class = '';
 
     				<?php
     				// Header image section
-    				bavotasan_header_images();
+    				//bavotasan_header_images();
     				?>
+
+    				<img class="header-img" alt="" src="<?= esc_url( home_url() );?>/wp-content/uploads/2015/06/cropped-login-background.png" style="position: absolute; left: 0px; top: -283px; right: auto; bottom: auto; height: auto; width: 100%;">
 				</div>
 			</div>
 
