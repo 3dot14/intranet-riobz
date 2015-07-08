@@ -6,7 +6,13 @@
  *
  * @since 1.0.0
  */
+global $current_user;
+get_currentuserinfo();
+$usuario = esc_attr($current_user->user_login);
+if($usuario==null){}
+else{
 ?>
+
 	<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?>>
 		<?php
 		// Display a thumbnail if one exists and not on single post
@@ -25,3 +31,4 @@
 	    <?php if ( is_singular() && ! is_front_page() )
 	    	get_template_part( 'content', 'footer' ); ?>
 	</article><!-- #post-<?php the_ID(); ?> -->
+<?php } ?>

@@ -112,3 +112,12 @@ $space_class = '';
 					</form>
 				</div>
 			</div>
+
+			<?php if($usuario==null){ ?>
+			<br><br>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						Sitio Creado para uso exclusivo del personal de Riobz, Solicita un usuario al administrador del sitio.
+					</div>
+				</div>
+			<?php } ?>
